@@ -2,4 +2,42 @@
 
 body {
     font-family: PT Sans Narrow, sans-serif;
+    font-weight: 400;
+    color: rgb(124, 124, 124)
+}
+
+h1,
+nav {
+    line-height: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    float: left;
+}
+
+ul li {
+    display: inline;
+}
+
+.menu {
+    float: right;
+    margin-right: 40px;
+}
+
+.social-networks {
+    display: inline;
+    text-align: center;
+}
+
+#bg-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/backgroung-index.png') no-repeat center center;
+    overflow: hidden;
+}
+
+#light-bulb {
+    float: right;
+    image ('../images/Shining-bright-idea-light-bulb-with-cogs-on-transparent-background-PNG.png');
 }
