@@ -1,43 +1,92 @@
-@import url('https://fonts.googleapis.com/css?family=PT Sans Narrow' rel='stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body {
-    font-family: PT Sans Narrow, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
-    color: rgb(124, 124, 124)
+    color: rgb(124, 124, 124);
 }
 
-h1,
-nav {
-    line-height: 50px;
-}
-
-h1 {
+#name {
     text-transform: uppercase;
     float: left;
+    margin-left: 150px;
+    color: rgb(124, 124, 124);
 }
 
-ul li {
-    display: inline;
+#name span {
+    color: rgb(255, 187, 0);
 }
 
-.menu {
+#menu {
     float: right;
-    margin-right: 40px;
+    margin-right: 10px;
+    color: rgb(124, 124, 124);
+    font-size: 200%;
 }
 
-.social-networks {
+#menu a {
+    text-decoration: none;
+}
+
+#menu>li {
     display: inline;
-    text-align: center;
+    margin-right: 20px;
+    color: rgb(124, 124, 124);
 }
 
-#bg-image {
-    height: 500px;
+#name,
+#menu {
+    line-height: 1px;
+}
+
+#top-wallpaper {
+    height: 550px;
     width: 100%;
-    background: url('../images/backgroung-index.png') no-repeat center center;
     overflow: hidden;
 }
 
-#light-bulb {
-    float: right;
-    image ('../images/Shining-bright-idea-light-bulb-with-cogs-on-transparent-background-PNG.png');
+#bg-image {
+    height: 550px;
+    width: 100%;
+    background: url(../images/backgroung-index.jpg) no-repeat center center;
+}
+
+#quote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#quote span {
+    color: rgb(255, 187, 0);
+}
+
+/* styling workshop section */
+
+
+.icon {
+    width: 15%;
+    float: left;
+    padding: 5%;
+}
+
+footer {
+    height: 150px;
+    margin-top: 200px;
+}
+
+.social-networks {
+    text-align: center;
+    font-size: 200%;
+}
+
+.social-networks li {
+    display: inline;
+    margin-top: 100px;
+    color: rgb(124, 124, 124);
+}
+
+.social-networks a {
+    text-decoration: none;
 }
