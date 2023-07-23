@@ -64,11 +64,14 @@ body {
 
 /* styling workshop section */
 
-
+#workshop-types {
+    display: block;
+}
 .icon {
     width: 15%;
     float: left;
     padding: 5%;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -89,4 +92,24 @@ footer {
 
 .social-networks a {
     text-decoration: none;
+}
+
+/* styling about */
+#about {
+    font-size: 150%;
+}
+
+#about-top {
+    text-align: center;
+}
+
+.about {
+    color: rgb(124, 124, 124);
+    padding: 5px;
+    margin-left: 10px;
+    width: 60%;
+}
+
+table {
+    text-transform: uppercase;
 }
