@@ -11,8 +11,7 @@ body {
 #name {
     text-transform: uppercase;
     float: left;
-    margin-top: ;
-    margin-left: 150px;
+    margin-left: 50px;
     color: rgb(124, 124, 124);
     font-size: 300%;
 }
@@ -28,11 +27,6 @@ body {
     font-size: 250%;
 }
 
-a:hover {
-    text-decoration-color: rgb(255, 187, 0);
-}
-
-
 #menu a {
     text-decoration: none;
 }
@@ -45,7 +39,7 @@ a:hover {
 
 #name,
 #menu {
-    line-height: 1px;
+    line-height: 10px;
 }
 
 #top-wallpaper {
@@ -58,7 +52,6 @@ a:hover {
     height: 550px;
     width: 100%;
     background: url(../images/backgroung-index.jpg) no-repeat center center;
-    float: right;
 }
 
 #quote {
@@ -81,7 +74,7 @@ a:hover {
 }
 
 .icon {
-    width: 300px;
+    width: 250px;
     padding: 50px;
 }
 
@@ -97,10 +90,10 @@ a:hover {
 #about-us {
     width: 80%;
     background-color: rgb(124, 124, 124);
-    padding: 5px;
     margin: 0 auto;
     color: white;
     padding-left: 50px;
+    padding-bottom: 50px;
     border: 5px rgb(255, 187, 0) solid;
     border-radius: 20px;
     font-size: 120%;
@@ -132,13 +125,13 @@ footer {
 
 .social-networks {
     text-align: center;
-    
+
 }
 
 .social-networks li {
-    display: inline;;
+    display: inline;
     padding-right: 80px;
-    font-size: 50px;
+    font-size: 300%;
 }
 
 .social-networks a {
@@ -150,26 +143,17 @@ footer {
 form {
     width: 100%;
     color: white;
-    margin: 0 auto;
-    font-size: 150%;
-}
-
-.signup-box {
-    margin: auto;
-    width: 100%;
     background-color: rgb(124, 124, 124);
-    font-size: 150%;
-    border-radius: 20px;
-    border: 5px solid rgb(255, 187, 0);
-}
-
-form {
+    margin: 0 auto;
+    font-size: 200%;
     text-align: center;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    border-radius: 20px;
+    border: 5px rgb(255, 187, 0) solid;
 }
+
 
 form input {
     width: 250px;
@@ -189,7 +173,7 @@ form input {
     height: 50px;
     margin-bottom: 80px;
     border-radius: 10px;
-    border-color:  rgb(255, 187, 0);
+    border-color: rgb(255, 187, 0);
     font-size: 100%;
 }
 
@@ -206,49 +190,113 @@ form input {
 
 /* for mobile devces */
 
-@media screen and (max-width:850px) {
-    #workshop-types {
+@media screen and (max-width:1600px) {
+#name {
+    margin-left: 20px;
+    font-size: 200%;
+}
+
+#menu>li {
+    margin-right: 20px;
+    font-size: 70%;
+}
+
+#top-wallpaper {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bg-image {
+    height: 400px;
+    width: 100%;
+    background: url(../images/1600.1.jpg) no-repeat center center;
+}
+
+
+#quote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 120%;
+}
+
+
+#about-top {
+    font-size: 90%;
+}
+    
+   
+.icon {
+    width: 200px;
+    padding: 50px;
+}
+
+#about-us {
+    font-size: 100%;
+}
+
+table {
+    font-size: 120%;
+}
+
+form {
+    font-size: 150%;
+}
+
+
+form input {
+    width: 200px;
+    height: 20px;
+    font-size: 100%;
+}
+
+.signup-box p {
+    font-size: 100%;
+}
+
+.join {
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+
+    font-size: 100%;
+}
+
+@media screen and (max-width:1300px) {    
+
+.icon {
+    width: 150px;
+    padding: 30px;
+}
+
+#top-wallpaper {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bg-image {
+    height: 300px;
+    width: 100%;
+    background: url(../images/1300.jpg) no-repeat center center;
+
+}
+
+
+
+
+ /* #workshop-types {
         height: fit-content;
         width: fit-content;
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-    }
+    } */
 
-    .icon {
-        width: 200px;
-        padding: 30px;
-    }
 
-    #top-wallpaper > #bg-image {
-        float: right;
-    }
-
-    .social-networks li {
+ /* .social-networks li {
         display: flex;
         flex-direction: column;
-    }
-
-    #name {
-        margin-left: 20px;
-    }
-
-    #menu>li {
-        margin-right: 20px;
-    }
-
-    #quote {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 120%;
-    }
-
-    #about-top {
-        font-size: 80%;
-    }
-
-    #bg-image {
-        background-position: right;
-    }
-
-}
+    } */
