@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-
 body {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: rgb(124, 124, 124);
-}
-
-.inline {
-    display: inline;
 }
 
 #name {
@@ -17,19 +12,27 @@ body {
     margin-left: 50px;
     color: rgb(124, 124, 124);
     font-size: 300%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #name span {
     color: rgb(255, 187, 0);
 }
 
+#menu,
+#name {
+    line-height: 50px;
+}
+
 #menu {
     float: right;
     margin-right: 10px;
-    color: rgb(124, 124, 124);
+    color: inherit;
     font-size: 250%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-
 
 #menu a {
     text-decoration: none;
@@ -38,7 +41,6 @@ body {
 #menu>li {
     display: inline;
     margin-right: 20px;
-    color: rgb(124, 124, 124);
 }
 
 #top-wallpaper {
@@ -64,8 +66,6 @@ body {
     color: rgb(255, 187, 0);
 }
 
-/* styling workshop section */
-
 #workshop-types {
     height: fit-content;
     width: fit-content;
@@ -77,7 +77,6 @@ body {
     padding: 50px;
 }
 
-/* styling about */
 #about {
     font-size: 150%;
 }
@@ -97,7 +96,6 @@ body {
     border-radius: 20px;
     font-size: 120%;
 }
-
 
 td {
     padding-left: 50px;
@@ -128,7 +126,6 @@ form {
     border: 5px rgb(255, 187, 0) solid;
 }
 
-
 form input {
     width: 250px;
     height: 30px;
@@ -155,8 +152,6 @@ form input {
     background-color: rgb(255, 187, 0);
 }
 
-/* styling footer */
-
 footer {
     height: 150px;
     margin-top: 80px;
@@ -165,7 +160,6 @@ footer {
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks li {
@@ -179,181 +173,174 @@ footer {
     color: rgb(124, 124, 124);
 }
 
-
-
 #logo {
     height: 70px;
     width: 70px;
 }
 
-
-
-/* for mobile devces */
-
 @media screen and (max-width:1600px) {
-#name {
-    margin-left: 20px;
-    font-size: 200%;
+
+    #name {
+        margin-left: 20px;
+        font-size: 200%;
+    }
+
+    #menu>li {
+        margin-right: 20px;
+        font-size: 70%;
+    }
+
+    #top-wallpaper {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #bg-image {
+        height: 400px;
+        width: 100%;
+        background: url(../images/1600.1.jpg) no-repeat center center;
+    }
+
+    #quote {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 120%;
+    }
+
+    #about-top {
+        font-size: 90%;
+    }
+
+    .icon {
+        width: 200px;
+        padding: 50px;
+    }
+
+    #about-us {
+        font-size: 100%;
+    }
+
+    #data {
+        font-size: 120%;
+    }
+
+    table {
+        font-size: 120%;
+        padding-top: 50px;
+    }
+
+    form {
+        font-size: 150%;
+    }
+
+    form input {
+        width: 200px;
+        height: 20px;
+        font-size: 100%;
+    }
+
+    .signup-box p {
+        font-size: 100%;
+    }
+
+    .join {
+        margin-top: 30px;
+        width: 250px;
+        height: 50px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        font-size: 100%;
+    }
+
+    .social-networks li {
+        font-size: 200%;
+    }
+
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    footer {
+        height: 100%;
+    }
 }
 
-#menu>li {
-    margin-right: 20px;
-    font-size: 70%;
-}
+@media screen and (max-width:1300px) {
 
-#top-wallpaper {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
+    #top-wallpaper {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+    }
 
-#bg-image {
-    height: 400px;
-    width: 100%;
-    background: url(../images/1600.1.jpg) no-repeat center center;
-}
+    #bg-image {
+        height: 300px;
+        width: 100%;
+        background: url(../images/1300.jpg) no-repeat center center;
 
+    }
 
-#quote {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 120%;
-}
+    .icon {
+        width: 150px;
+        padding: 30px;
+    }
 
+    #about-us {
+        padding-left: 30px;
+        font-size: 80%;
+    }
 
-#about-top {
-    font-size: 90%;
-}
-    
-   
-.icon {
-    width: 200px;
-    padding: 50px;
-}
+    #quote {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 100%;
+    }
 
-#about-us {
-    font-size: 100%;
-}
+    #about-top {
+        font-size: 70%;
+    }
 
-#data {
-    font-size: 120%;
-}
+    table {
+        font-size: 100%;
+        padding-top: 30px;
+    }
 
-table {
-    font-size: 120%;
-    padding-top: 50px;
-}
+    #data {
+        font-size: 100%;
+    }
 
-form {
-    font-size: 150%;
-}
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
 
-
-form input {
-    width: 200px;
-    height: 20px;
-    font-size: 100%;
-}
-
-.signup-box p {
-    font-size: 100%;
-}
-
-.join {
-    margin-top: 30px;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    font-size: 100%;
-}
-
-.social-networks li {
-    font-size: 200%;
-}
-
-#logo {
-    height: 50px;
-    width: 50px;
-}
-footer {
-    height: 100%;
-}
-@media screen and (max-width:1300px) {    
-
-#top-wallpaper {
-    height: 300px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#bg-image {
-    height: 300px;
-    width: 100%;
-    background: url(../images/1300.jpg) no-repeat center center;
+    footer {
+        margin: 40px;
+    }
 
 }
-
-.icon {
-    width: 150px;
-    padding: 30px;
-}
-
-#about-us {
-    padding-left: 30px;
-    font-size: 80%;
-}
-
-
-#quote {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 100%;
-}
-
-
-#about-top {
-    font-size: 70%;
-}
-
-table {
-    font-size: 100%;
-    padding-top: 30px;
-}
-
-#data {
-    font-size: 100%;
-}
-
-#logo {
-    height: 40px;
-    width: 40px;
-}
-
-footer {
-    margin: 40px;
-}
-
 
 @media screen and (max-width:900px) {
 
-#name {
-        margin-left: 20px;
+    #name {
+        margin-left: 0px;
         font-size: 150%;
     }
-    
+
     #menu>li {
-        margin-right: 20px;
+        margin-right: 0px;
         font-size: 50%;
     }
-    
- #top-wallpaper {
-     height: 250px;
- }
 
- #bg-image {
-     height: 250px;
-     background: url(../images/900.jpg) no-repeat center center;
+    #top-wallpaper {
+        height: 250px;
+    }
+
+    #bg-image {
+        height: 250px;
+        background: url(../images/900.jpg) no-repeat center center;
     }
 
     .icon {
@@ -386,35 +373,32 @@ footer {
     #data {
         font-size: 80%;
     }
-        .join {
-            margin-top: 30px;
-            width: 200px;
-            height: 40px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-            font-size: 80%;
-        }
+
+    .join {
+        margin-top: 30px;
+        width: 200px;
+        height: 40px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        font-size: 80%;
+    }
 
     .social-networks li {
         font-size: 150%;
     }
 
-    #logo {
-        height: 30px;
-        width: 30px;
-    }
-
-    
 
     footer {
         margin: 30px;
     }
 
+}
+
 @media screen and (max-width:700px) {
 
     #name {
         margin-left: 10px;
-        font-size: 120%;
+        font-size: 100%;
     }
 
     #menu>li {
@@ -422,19 +406,28 @@ footer {
         font-size: 40%;
     }
 
- #top-wallpaper {
-     height: 200px;
- }
+    #menu {
+        margin-left: 0px;
+        padding-left: 5px;
+    }
 
- #bg-image {
-     height: 200px;
-     background: url(../images/700.jpg) no-repeat center center;
- }
+    #top-wallpaper {
+        height: 200px;
+    }
+
+    #name, #menu {
+        line-height: 30px;
+    }
+
+    #bg-image {
+        height: 200px;
+        ackground: url(../images/700.jpg) no-repeat center center;
+    }
 
 
     #about-us {
         padding-left: 10px;
-        font-size: 50%;
+        font-size: 70%;
         padding-bottom: 10px;
     }
 
@@ -442,62 +435,79 @@ footer {
     #quote {
         margin-top: 10px;
         margin-bottom: 10px;
-        font-size: 50%;
+        font-size: 70%;
     }
 
     .icon {
         width: 100px;
         padding: 20px;
-     }
+    }
 
     #about-top {
-        font-size: 35%;
+        font-size: 50%;
     }
 
     table {
-        font-size: 60%;
+        font-size: 80%;
         padding-top: 10px;
     }
 
     #data {
-        font-size: 40%;
+        font-size: 80%;
     }
 
     .social-networks li {
-        font-size: 80%;
         display: flex;
         flex-direction: column;
     }
 
-    
-#logo {
-    height: 20px;
-    width: 20px;
-}
+
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
 
     footer {
         margin: 10px;
     }
+}
 
 @media screen and (max-width:500px) {
 
-    #name {
-            margin-left: 10px;
-            font-size: 80%;
-        }
-    
-        #menu>li {
-            margin-right: 10px;
-            font-size: 30%;
-        }
 
     #top-wallpaper {
-            height: 200px;
-        }
-    
-        #bg-image {
-            height: 200px;
-            background: url(../images/500.jpg) no-repeat center center;
-        }
+        height: 280px;
+    }
 
+    #bg-image {
+        height: 280px;
+        background: url(../images/500.jpg) no-repeat center center;
+    }
+
+    .box {
+        margin-top: 0%;
+    }
+
+
+    form {
+        font-size: 100%;
+    }
+
+    form input {
+        width: 180px;
+        height: 20px;
+        margin: 5px auto;
+        font-size: 100%;
+    }
+
+    .signup-box p {
+        font-size: 100%;
+    }
+
+    .join {
+        margin-top: 10px;
+        width: 200px;
+        height: 30px;
+        font-size: 80%;
+    }
 }
