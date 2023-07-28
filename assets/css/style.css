@@ -118,7 +118,7 @@ table {
 /* styling footer */
 
 footer {
-    height: 150%;
+    height: 150px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -235,8 +235,13 @@ form input {
     font-size: 100%;
 }
 
+#data {
+    font-size: 120%;
+}
+
 table {
     font-size: 120%;
+    padding-top: 50px;
 }
 
 form {
@@ -260,16 +265,21 @@ form input {
     height: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
-
     font-size: 100%;
 }
 
-@media screen and (max-width:1300px) {    
-
-.icon {
-    width: 150px;
-    padding: 30px;
+.social-networks li {
+    font-size: 200%;
 }
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+footer {
+    height: 100%;
+}
+@media screen and (max-width:1300px) {    
 
 #top-wallpaper {
     height: 300px;
@@ -284,9 +294,100 @@ form input {
 
 }
 
+.icon {
+    width: 150px;
+    padding: 30px;
+}
+
+#about-us {
+    padding-left: 30px;
+    font-size: 80%;
+}
 
 
+#quote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 100%;
+}
 
+
+#about-top {
+    font-size: 70%;
+}
+
+table {
+    font-size: 100%;
+    padding-top: 30px;
+}
+
+#data {
+    font-size: 100%;
+}
+
+footer {
+    margin: 50px;
+}
+
+
+@media screen and (max-width:900px) {
+
+#name {
+        margin-left: 20px;
+        font-size: 150%;
+    }
+    
+    #menu>li {
+        margin-right: 20px;
+        font-size: 50%;
+    }
+    
+    #bg-image {
+        background: url(../images/900.jpg) no-repeat center center;
+
+    }
+
+    .icon {
+        width: 120px;
+        padding: 20px;
+    }
+
+    #about-us {
+        padding-left: 20px;
+        font-size: 70%;
+    }
+
+
+    #quote {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 80%;
+    }
+
+
+    #about-top {
+        font-size: 60%;
+    }
+
+    table {
+        font-size: 80%;
+        padding-top: 20px;
+    }
+
+    #data {
+        font-size: 80%;
+    }
+
+        .social-networks li {
+            font-size: 150%;
+        }
+
+    footer {
+        margin: 30px;
+    }
+
+
+    
  /* #workshop-types {
         height: fit-content;
         width: fit-content;
