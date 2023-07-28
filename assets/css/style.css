@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 
-
 body {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: rgb(124, 124, 124);
+}
+
+.inline {
+    display: inline;
 }
 
 #name {
@@ -27,6 +30,7 @@ body {
     font-size: 250%;
 }
 
+
 #menu a {
     text-decoration: none;
 }
@@ -35,11 +39,6 @@ body {
     display: inline;
     margin-right: 20px;
     color: rgb(124, 124, 124);
-}
-
-#name,
-#menu {
-    line-height: 10px;
 }
 
 #top-wallpaper {
@@ -115,31 +114,6 @@ table {
     text-align: center;
 }
 
-/* styling footer */
-
-footer {
-    height: 150px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.social-networks {
-    text-align: center;
-
-}
-
-.social-networks li {
-    display: inline;
-    padding-right: 80px;
-    font-size: 300%;
-}
-
-.social-networks a {
-    text-decoration: none;
-    color: rgb(124, 124, 124);
-}
-
-
 form {
     width: 100%;
     color: white;
@@ -180,6 +154,32 @@ form input {
 .join:hover {
     background-color: rgb(255, 187, 0);
 }
+
+/* styling footer */
+
+footer {
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+    padding-right: 80px;
+    font-size: 300%;
+}
+
+.social-networks a {
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+
 
 #logo {
     height: 70px;
@@ -431,10 +431,6 @@ footer {
      background: url(../images/700.jpg) no-repeat center center;
  }
 
-    .icon {
-        width: 40px;
-        padding: 10px;
-    }
 
     #about-us {
         padding-left: 10px;
@@ -449,9 +445,13 @@ footer {
         font-size: 50%;
     }
 
+    .icon {
+        width: 100px;
+        padding: 20px;
+     }
 
     #about-top {
-        font-size: 40%;
+        font-size: 35%;
     }
 
     table {
@@ -465,8 +465,11 @@ footer {
 
     .social-networks li {
         font-size: 80%;
+        display: flex;
+        flex-direction: column;
     }
 
+    
 #logo {
     height: 20px;
     width: 20px;
@@ -495,19 +498,6 @@ footer {
         #bg-image {
             height: 200px;
             background: url(../images/500.jpg) no-repeat center center;
+        }
+
 }
-
-    
- /* #workshop-types {
-        height: fit-content;
-        width: fit-content;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    } */
-
-
- /* .social-networks li {
-        display: flex;
-        flex-direction: column;
-    } */
