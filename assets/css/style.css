@@ -8,6 +8,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     color: rgb(124, 124, 124);
+    padding-top: 50px;
 }
 
 .too-small {
@@ -49,6 +50,10 @@ header {
 
 #menu a {
     text-decoration: none;
+}
+
+#menu:visited {
+    color: rgb(124, 124, 124);
 }
 
 #menu>li {
@@ -409,6 +414,7 @@ footer {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 80%;
+        max-width: 500px;
     }
 
 
@@ -514,6 +520,7 @@ footer {
     .social-networks li {
         display: flex;
         flex-direction: column;
+        font-size: 120%;
     }
 
 
