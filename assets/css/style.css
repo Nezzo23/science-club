@@ -30,8 +30,8 @@ header {
     margin-left: 50px;
     color: rgb(124, 124, 124);
     font-size: 300%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #name span {
@@ -43,8 +43,8 @@ header {
     margin-right: 10px;
     color: inherit;
     font-size: 250%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #menu a {
@@ -60,8 +60,9 @@ header {
     color: rgb(255, 187, 0);
 }
 
-#menu+#name {
-    padding-top: 50px;
+#menu,
+#name {
+    display: inline;
 }
 
 /*hero*/
@@ -138,7 +139,7 @@ td {
 
 table {
     padding-top: 80px;
-    font-size: 150%;
+    font-size: 200%;
     margin: 0 auto;
 }
 
@@ -263,7 +264,7 @@ footer {
     }
 
     table {
-        font-size: 120%;
+        font-size: 150%;
         padding-top: 50px;
     }
 
@@ -328,7 +329,6 @@ footer {
         height: 300px;
         width: 100%;
         background: url(../images/1300.jpg) no-repeat center center;
-
     }
 
     .icon {
@@ -352,7 +352,7 @@ footer {
     }
 
     table {
-        font-size: 100%;
+        font-size: 150%;
         padding-top: 30px;
     }
 
@@ -417,7 +417,7 @@ footer {
     }
 
     table {
-        font-size: 80%;
+        font-size: 120%;
         padding-top: 20px;
     }
 
@@ -482,7 +482,7 @@ footer {
     }
 
     #about-us {
-        padding-left: 10px;
+        padding-left: 20px;
         font-size: 70%;
         padding-bottom: 10px;
     }
@@ -533,12 +533,12 @@ footer {
 
     #name {
         margin-left: 10px;
-        font-size: 120%;
+        font-size: 100%;
     }
 
     #menu>li {
         margin-right: 10px;
-        font-size: 50%;
+        font-size: 40%;
     }
 
     #top-wallpaper {
