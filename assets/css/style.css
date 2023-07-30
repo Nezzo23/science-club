@@ -22,10 +22,6 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-header+section {
-    padding-top: 50px;
-}
-
 /*styling header*/
 
 #name {
@@ -64,6 +60,10 @@ header+section {
     color: rgb(255, 187, 0);
 }
 
+#menu+#name {
+    padding-top: 50px;
+}
+
 /*hero*/
 
 #top-wallpaper {
@@ -83,6 +83,7 @@ header+section {
 #quote {
     text-align: center;
     font-size: 150%;
+    max-width: 1000px;
     margin: 50px auto;
     width: auto;
 }
@@ -112,6 +113,7 @@ header+section {
 
 #about-top {
     text-align: center;
+    max-width: 1000px;
     margin: 0 auto;
     width: auto;
 }
@@ -225,16 +227,6 @@ footer {
 
 @media screen and (max-width:1600px) {
 
-    #name {
-        margin-left: 20px;
-        font-size: 200%;
-    }
-
-    #menu>li {
-        margin-right: 20px;
-        font-size: 70%;
-    }
-
     #top-wallpaper {
         height: 400px;
         width: 100%;
@@ -316,6 +308,16 @@ footer {
 
 @media screen and (max-width:1300px) {
 
+    #name {
+        margin-left: 20px;
+        font-size: 250%;
+    }
+
+    #menu>li {
+        margin-right: 20px;
+        font-size: 80%;
+    }
+
     #top-wallpaper {
         height: 300px;
         width: 100%;
@@ -374,13 +376,13 @@ footer {
 @media screen and (max-width:900px) {
 
     #name {
-        margin-left: 10px;
-        font-size: 150%;
+        margin-left: 20px;
+        font-size: 200%;
     }
 
     #menu>li {
-        margin-right: 10px;
-        font-size: 50%;
+        margin-right: 20px;
+        font-size: 70%;
     }
 
     #top-wallpaper {
@@ -423,12 +425,25 @@ footer {
         font-size: 80%;
     }
 
+    form {
+        font-size: 100%;
+    }
+
+    form input {
+        width: 180px;
+        height: 20px;
+        margin: 5px auto;
+        font-size: 100%;
+    }
+
+    .signup-box p {
+        font-size: 100%;
+    }
+
     .join {
-        margin-top: 30px;
+        margin-top: 10px;
         width: 200px;
-        height: 40px;
-        margin-bottom: 30px;
-        border-radius: 10px;
+        height: 30px;
         font-size: 80%;
     }
 
@@ -447,13 +462,18 @@ footer {
 
 @media screen and (max-width:700px) {
 
-    #top-wallpaper {
-        height: 200px;
+    #name {
+        margin-left: 10px;
+        font-size: 160%;
     }
 
-    #name,
-    #menu {
-        line-height: 30px;
+    #menu>li {
+        margin-right: 10px;
+        font-size: 60%;
+    }
+
+    #top-wallpaper {
+        height: 200px;
     }
 
     #bg-image {
@@ -491,28 +511,6 @@ footer {
         font-size: 80%;
     }
 
-    form {
-        font-size: 100%;
-    }
-
-    form input {
-        width: 180px;
-        height: 20px;
-        margin: 5px auto;
-        font-size: 100%;
-    }
-
-    .signup-box p {
-        font-size: 100%;
-    }
-
-    .join {
-        margin-top: 10px;
-        width: 200px;
-        height: 30px;
-        font-size: 80%;
-    }
-
     .social-networks li {
         display: flex;
         flex-direction: column;
@@ -535,17 +533,12 @@ footer {
 
     #name {
         margin-left: 10px;
-        font-size: 100%;
+        font-size: 120%;
     }
 
     #menu>li {
         margin-right: 10px;
-        font-size: 40%;
-    }
-
-    #menu {
-        margin-left: 0;
-        padding-left: 5px;
+        font-size: 50%;
     }
 
     #top-wallpaper {
