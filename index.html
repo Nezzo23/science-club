@@ -7,10 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Science club 51</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
 </head>
 
 <body>
-    <section id="header">
+
+    <div class="too-small">
+        <h3>This device is too small</h3>
+        <p class="copy-md mt-3">If you're on a Galaxy Fold, consider unfolding your phone or viewing it in full screen
+            to
+            best optimize your experience.</p>
+    </div>
+
+
+    <!-- heading and navigation-->
+
+    <header id="header">
         <a href="index.html">
             <h1 id="name">Science Club <span>51</span></h1>
         </a>
@@ -27,11 +45,15 @@
                 </li>
             </ul>
         </nav>
-    </section>
+    </header>
+
+    <!-- hero image-->
 
     <section id="top-wallpaper">
         <div id="bg-image"></div>
     </section>
+
+    <!-- quote-->
 
     <section id="quote">
         <h2>“There is immense power when a group <span>of people <br> with similar interests</span> gets together to
@@ -39,16 +61,18 @@
             Idowu Koyenikan</h2>
     </section>
 
+    <!-- workshop types-->
+
     <section id="workshop-types">
         <div>
-            <img class="icon"
-                src="assets/images/computer-icons-program-optimization-source-code-computer-programming-symbol-d2ed7da7b685a58393baab6e18cafdce.png"
-                alt="commputer science">
-            <img class="icon" src="assets/images/favpng_engineering-icon.png" alt="engineering">
-            <img class="icon" src="assets/images/pngwing.com.png" alt="physics">
-            <img class="icon" src="assets/images/function-mathematical-symbol.png" alt="mathematics">
+            <img class="icon" src="assets/images/computer-science" alt="commputer science">
+            <img class="icon" src="assets/images/engineering" alt="engineering">
+            <img class="icon" src="assets/images/physics" alt="physics">
+            <img class="icon" src="assets/images/mathematics" alt="mathematics">
         </div>
     </section>
+
+    <!-- about-->
 
     <section id="about">
         <div id="about-top">
@@ -71,7 +95,11 @@
                 <li>Work in a team in the direction of innovation</li>
             </ul>
         </div>
+    </section>
 
+    <!-- schedule-->
+
+    <section id="schedule">
         <table>
             <tr>
                 <th>day</th>
@@ -95,14 +123,20 @@
                 <td>computer-science & engineering <br> mathematics & physics</td>
             </tr>
         </table>
+    </section>
 
+    <!-- contact info-->
+
+    <section id="contact">
         <div id="data">
             <p>Address: Apfelstrasse BB, 1642 Berlin, Deutschland <br> Contact: sclub51@join.com</p>
         </div>
     </section>
 
+    <!-- sign up -->
+
     <section id="sign-up" class="signup-box">
-        <form method="post" action="https://formdump.codeinstitute.net/">
+        <form method="post" target="_blank" action="https://formdump.codeinstitute.net/">
             <p>Sign up</p>
             <label for="first-name">First Name</label>
             <input class="box" id="first-name" type="text" name="first_name" required>
@@ -113,6 +147,8 @@
             <input class="join" type="submit" value="Join Us">
         </form>
     </section>
+
+    <!-- footer-->
 
     <footer>
         <ul class="social-networks">
@@ -129,9 +165,7 @@
                     aria-label="Wisit our twitter page">·twitter</a>
             </li>
             <li>
-                <a href="index.html"><img id="logo"
-                        src="assets/images/Shining-bright-idea-light-bulb-with-cogs-on-transparent-background-PNG.png"
-                        alt="Home screen"></a>
+                <a href="index.html"><img id="logo" src="assets/images/logo-image" alt="Home screen"></a>
             </li>
         </ul>
     </footer>
