@@ -149,7 +149,7 @@ table {
 }
 
 #data {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
 }
 
@@ -262,15 +262,6 @@ footer {
 
     #about-us {
         font-size: 100%;
-    }
-
-    #data {
-        font-size: 120%;
-    }
-
-    table {
-        font-size: 150%;
-        padding-top: 50px;
     }
 
     form {
@@ -509,7 +500,7 @@ footer {
     }
 
     table {
-        font-size: 80%;
+        font-size: 100%;
         padding-top: 10px;
     }
 
@@ -540,12 +531,12 @@ footer {
 
     #name {
         margin-left: 10px;
-        font-size: 100%;
+        font-size: 120%;
     }
 
     #menu>li {
         margin-right: 10px;
-        font-size: 40%;
+        font-size: 60%;
     }
 
     #top-wallpaper {
